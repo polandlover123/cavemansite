@@ -1,21 +1,18 @@
-<div class="errorcontainer">
-  <h1>whoopsies, you shouldn't be here</h1>
-  <a href="/">go back</a>
-</div>
-
-<style>
-  :root {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height:100vh
-  }
-  h1 {
-    color: #dde1e6;
-  }
-  a {
-    color: #dde1e6;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-  }
-</style>
+<script>
+	import { page } from '$app/state';
+</script>
+<main>
+  <div id="text"><div id="text">
+    <div class="line">
+      <p class="word">error</p>
+    </div>
+  
+    <div class="line">
+      <p class="word">{page.status}</p>
+    </div>
+  
+    <div class="line">
+      <p class="word">{page.error.message}</p>
+    </div>
+  </div>
+</main>

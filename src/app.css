@@ -1,51 +1,46 @@
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-.hellotitle {
-  animation: fadeIn 2s ease-in-out;
-}
-.yaptitle{
-  animation: fadeIn 2s ease-in-out;
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-}
-:root{
-  min-height: 300vh;
-  width: 100vw;
-  font-family: 'Victor Mono', monospace;
-  font-style: italic;
-  scroll-snap-type: y mandatory;
-  text-align: center;
+  color-scheme: light dark;
   color: #dde1e6;
-  background-color: #111111;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.container {
+
+:root {  
+  --green: rgb(42, 252, 152);
+  --blue: rgb(41, 121, 255);
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  margin: 0rem;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.line {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
-.title {
-  width: 100vw;
-  scroll-snap-align: start;
-  min-height: 100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+.word {
+  color: white;
+  font-size: clamp(2rem, 8vw, 10rem);
+  font-family: "Rubik", sans-serif;
+  margin: 0rem;
+  text-transform: uppercase;
+  transition: opacity 250ms ease;
 }
-.polandlover {
-  width: 100vw;
-  scroll-snap-align: start;
-  min-height: 100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-.about {
-  scroll-snap-align: start;
-  min-height: 100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+
+a {
+  text-decoration: none;
 }
