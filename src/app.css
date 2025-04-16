@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -20,24 +20,25 @@
 
 body {
   height: 100vh;
-  background-color: black;
-  margin: 0rem;
+  background-color: white;
+  margin: 0 0rem;
   overflow: hidden;
   display: grid;
-  place-items: center;
+  place-items: left;
 }
 
 .line {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  overflow-wrap: break-word;
 }
 
 .word {
-  color: white;
-  font-size: clamp(2rem, 8vw, 10rem);
-  font-family: "Rubik", sans-serif;
-  margin: 0rem;
-  text-transform: uppercase;
+  color: black;
+  font-size: 1.2rem; 
+  font-family: "Helvetica", sans-serif;
+  margin: 1rem;
+  /* text-transform: uppercase; */
   transition: opacity 250ms ease;
 }
 
