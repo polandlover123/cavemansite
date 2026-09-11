@@ -10,7 +10,7 @@
     </div>
   
     <div class="line">
-      <p class="word">CALGARY, AB — CAVEMAN SOFTWARE, makers of innovative software like CAVEMAN LINUX <br> , announces it's new website, coming soon. Home to the future of <br> software, CAVEMAN SOFTWARE hopes to redesign the future of computing using new and <br> upcoming technologies. You are now witnessing computer history in real time.</p>
+      <p class="word">CALGARY, AB — CAVEMAN SOFTWARE, makers of innovative software like CAVEMAN LINUX <br> announces it's new website, coming soon. Home to the future of <br> software, CAVEMAN SOFTWARE hopes to redesign the future of computing using new and <br> upcoming technologies. You are now witnessing computer history in real time.</p>
     </div>
 
     <div class="line">
